@@ -21,4 +21,4 @@ else:
         new_last_tow = '0' + new_last_tow
 
 new_mac = prefix_mac + '-' + new_last_tow
-print(new_mac)
+print("新生成的MAC地址：%s" % new_mac)
